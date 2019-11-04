@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="GB_Stella"
+        <meta name="description" content="Welcome to my kakao Clone">
+        <title>This is my title</title>
+        <link href="style.css" rel="stylesheet">
+        <style>
+            body,html {
+                padding: 0;
+                margin: 0;
+                height: 100%;
+            }
+            body {
+                height : 400%;
+                background-color: red;
+            }
+            .boxOne {
+                height: 300px;
+                width: 300px;
+                background-color: yellow;
+                position: static;
+            }
+            .boxTwo {
+                height: 300px;
+                width: 300px;
+                background-color: green;
+                position: fixed;
+                bottom : 10px;
+                right: 500px;
+            }
+            .boxThree {
+                height: 400px;
+                width: 400px;
+                background-color: pink;
+                position: relative;
+                top : 10px;
+                left: 500px;
+            }
+            .inside-box {
+                background-color: blue;
+                width: 50%;
+                height: 50%;
+                padding: 20px 10px;
+                border-width: 5px;
+                border-color: red;
+                border-style: dashed;
+            }
+            .chiledThree {
+                height: 100px;
+                width: 100px;
+                background-color: blue;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>큰 제목을 쓰고 싶을 때 사용하는 태그</h1>
+        <section>
+            <header id="headerNumberOne" class="defaultHeader">
+                <h1>Title of a section</h1>
+                <p>테스트 p를 만들었습니다.</p>
+                <a href="www.naver.com">네이버로 이동합니다.</a>
+            </header>
+        </section>
+        <div>
+            <header id="defferenHeader" class="defaultHeader">Title of the unkown container</header>
+        </div>
+        <div class="boxOne">
+            <div class="inside-box">
+
+            </div>
+        </div>
+        <div class="boxTwo">
+            <div class="inside-box">
+
+            </div>
+        </div>
+        <div class="boxThree">
+            <div class="chiledThree">
+
+            </div>
+        </div>
+    </body>
+</html>

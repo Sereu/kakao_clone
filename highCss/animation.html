@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="GB_Stella"
+        <meta name="description" content="Welcome to my kakao Clone">
+        <title>Animations</title>
+        <style>
+            .box{
+                width: 100px;
+                height: 100px;
+                background: red;
+                animation: 1.5s scaleAndRotateSquare infinite ease-in-out;
+            }
+            @keyframes scaleAndRotateSquare {
+                0% {
+                    transform: none;
+                }
+                50% {
+                    transform: rotate(1turn) scale(.5,.5);
+                    color:white
+                }
+                100% {
+                    transform: none;
+                    color: blue;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" >box</div>
+    </body>
+</html>
